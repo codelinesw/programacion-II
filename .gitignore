@@ -1,0 +1,50 @@
+# Ignorar archivos de compilación
+*.class
+
+# Ignorar archivos de log
+*.log
+
+# Ignorar archivos generados por el IDE (Eclipse, IntelliJ, NetBeans, etc.)
+*.iml
+.idea/
+.project
+.classpath
+.settings/
+nbproject/
+
+# Ignorar directorios de salida
+/bin/
+/build/
+/out/
+
+# Ignorar archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de Maven
+target/
+
+# Ignorar archivos de Gradle
+.gradle/
+build/
+
+# Ignorar archivos de configuración temporal
+*.tmp
+*.swp
+
+# Ignorar librerías descargadas
+**/lib/*.jar
+
+# Ignorar cobertura de pruebas
+coverage/
+*.exec
+
+# Ignorar paquetes comprimidos
+*.zip
+*.tar.gz
+*.rar
+
+# Otros posibles
+logs/
+*.war
+*.ear
