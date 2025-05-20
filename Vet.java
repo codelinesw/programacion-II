@@ -1,3 +1,5 @@
+import core.model.*;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -29,7 +31,7 @@ public class Vet {
             String direccion = scanner.nextLine();
 
             // Crear un nuevo cliente con los datos ingresados
-            vet.cliente = new Cliente(nombre, id, correo, telefono, direccion);
+            vet.cliente = new Cliente("",nombre, id, correo, telefono, direccion);
 
 
             String continuarMascotas;
@@ -49,17 +51,17 @@ public class Vet {
                 // Valida que tipo de mascota se va ingresar segun la opción seleccionada
                 if (especie.equals("1")) { // Si es perro
                     // Se instancia una clase de tipo Perro y se agrega a la lista de mascotas
-                    Perro perro = new Perro(nombreMascota, edad, raza);
+                    Perro perro = new Perro("",nombreMascota, edad, raza, "");
                     vet.cliente.agregarMascota(perro);
                 }
                 if (especie.equals("2")) { // Si es perro
                     // Se instancia una clase de tipo Perro y se agrega a la lista de mascotas
-                    Gato gato = new Gato(nombreMascota, edad, raza);
+                    Gato gato = new Gato("",nombreMascota, edad, raza, "");
                     vet.cliente.agregarMascota(gato);
                 }
                 if (especie.equals("3")) { // Si es perro
                     // Se instancia una clase de tipo Perro y se agrega a la lista de mascotas
-                    Rabbit conejo = new Rabbit(nombreMascota, edad, raza);
+                    Rabbit conejo = new Rabbit("",nombreMascota, edad, raza, "");
                     vet.cliente.agregarMascota(conejo);
                 }
                 

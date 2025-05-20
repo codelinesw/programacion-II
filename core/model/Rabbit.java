@@ -1,10 +1,12 @@
+package core.model;
+
 import java.util.ArrayList;
-public class Perro extends Mascota
+public class Rabbit extends Mascota
 {
     // Constructor
-    public Perro(String tempNombre, int tempEdad, String tempRaza) 
+    public Rabbit(String id, String tempNombre, int tempEdad, String tempRaza, String propetarioId)
     {
-        super(tempNombre, tempEdad, tempRaza);
+        super(id, tempNombre, tempEdad, tempRaza, propetarioId);
     }
 
     // Método para agregar vacunas
@@ -18,6 +20,6 @@ public class Perro extends Mascota
     }
 
      public void showInfoMascota(){
-        System.out.println(" Especie -> Perro, Nombre -> "+this.nombre+" Edad -> "+this.edad+" Raza -> "+this.raza);
+        System.out.println(" Especie -> Conejo, Nombre -> "+this.nombre+" Edad -> "+this.edad+" Raza -> "+this.raza);
     }
 }

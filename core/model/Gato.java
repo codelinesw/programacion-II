@@ -1,10 +1,12 @@
+package core.model;
+
 import java.util.ArrayList;
 public class Gato extends Mascota
 {
     // Constructor
-    public Gato(String tempNombre, int tempEdad, String tempRaza) 
+    public Gato(String id, String tempNombre, int tempEdad, String tempRaza, String propetarioId)
     {
-        super(tempNombre, tempEdad, tempRaza);
+        super(id, tempNombre, tempEdad, tempRaza, propetarioId);
     }
 
     // Método para agregar vacunas

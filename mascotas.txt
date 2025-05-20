@@ -1,0 +1,5 @@
+id=fd9f28c1-1c3f-4b40-875a-70993398a424&propietario_id=fd9f28c1-1c3f-4b40-875a-70993398a424&mascota_name=Santi&mascota_edad=25&mascota_raza=siames
+id=b17c8c24-a2bf-43ff-bb1e-483cc75f386a&propietario_id=fd9f28c1-1c3f-4b40-875a-70993398a424&mascota_name=Michi&mascota_edad=24&mascota_raza=Maine coon
+id=6a435ec4-0314-424f-9de3-d68507dbe10e&propietario_id=06176d1d-a46e-4b78-bb44-049ea91920ec&mascota_name=Bambi&mascota_edad=56&mascota_raza=Mono
+id=838ffea4-56b5-47df-9b52-f1516432b64c&propietario_id=da41570b-30b9-4ce7-bef3-bd78e5ea9ca0&mascota_name=Frey damian&mascota_edad=12&mascota_raza=Dogger
+id=331b76eb-c1fe-4a05-a43d-2f39cb3a8909&propietario_id=cef60274-b082-4120-905f-e44c14470b57&mascota_name=Tranu&mascota_edad=56&mascota_raza=Goddy
